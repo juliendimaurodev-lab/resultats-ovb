@@ -1,0 +1,1581 @@
+{
+ "cle": "2026-2027_LIAQ_RFC",
+ "saison": "2026/2027",
+ "club": "ONDRES VOLLEY-BALL",
+ "libelle": "RFC - REGIONAL 1 FEMININ zone SUD",
+ "source": "https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php?saison=2026%2F2027&codent=LIAQ&poule=RFC&calend=COMPLET",
+ "classement": [
+  {
+   "rang": 1,
+   "equipe": "UNION SPORTIVE TALENCAISE",
+   "points": 12,
+   "joues": 5,
+   "gagnes": 4,
+   "perdus": 1,
+   "forfaits": 0,
+   "v30": 3,
+   "v31": 1,
+   "v32": 0,
+   "d23": 0,
+   "d13": 0,
+   "d03": 1,
+   "setsPour": 12,
+   "setsContre": 4,
+   "coeffSets": 3,
+   "ptsPour": 357,
+   "ptsContre": 330,
+   "coeffPts": 1.082
+  },
+  {
+   "rang": 2,
+   "equipe": "AV GARDE J D'ARC CAUDERAN",
+   "points": 11,
+   "joues": 4,
+   "gagnes": 4,
+   "perdus": 0,
+   "forfaits": 0,
+   "v30": 2,
+   "v31": 1,
+   "v32": 1,
+   "d23": 0,
+   "d13": 0,
+   "d03": 0,
+   "setsPour": 12,
+   "setsContre": 3,
+   "coeffSets": 4,
+   "ptsPour": 354,
+   "ptsContre": 292,
+   "coeffPts": 1.212
+  },
+  {
+   "rang": 3,
+   "equipe": "MJC LES FLEURS DE PAU",
+   "points": 10,
+   "joues": 4,
+   "gagnes": 3,
+   "perdus": 1,
+   "forfaits": 0,
+   "v30": 3,
+   "v31": 0,
+   "v32": 0,
+   "d23": 1,
+   "d13": 0,
+   "d03": 0,
+   "setsPour": 11,
+   "setsContre": 3,
+   "coeffSets": 3.667,
+   "ptsPour": 317,
+   "ptsContre": 223,
+   "coeffPts": 1.422
+  },
+  {
+   "rang": 4,
+   "equipe": "LONS VOLLEY-CLUB DU MOULIN",
+   "points": 8,
+   "joues": 5,
+   "gagnes": 3,
+   "perdus": 2,
+   "forfaits": 0,
+   "v30": 0,
+   "v31": 2,
+   "v32": 1,
+   "d23": 0,
+   "d13": 1,
+   "d03": 1,
+   "setsPour": 10,
+   "setsContre": 10,
+   "coeffSets": 1,
+   "ptsPour": 422,
+   "ptsContre": 417,
+   "coeffPts": 1.012
+  },
+  {
+   "rang": 5,
+   "equipe": "ADOUR VOLLEY",
+   "points": 7,
+   "joues": 5,
+   "gagnes": 2,
+   "perdus": 3,
+   "forfaits": 0,
+   "v30": 2,
+   "v31": 0,
+   "v32": 0,
+   "d23": 1,
+   "d13": 1,
+   "d03": 1,
+   "setsPour": 9,
+   "setsContre": 9,
+   "coeffSets": 1,
+   "ptsPour": 351,
+   "ptsContre": 369,
+   "coeffPts": 0.951
+  },
+  {
+   "rang": 6,
+   "equipe": "ONDRES VOLLEY-BALL",
+   "points": 6,
+   "joues": 4,
+   "gagnes": 2,
+   "perdus": 2,
+   "forfaits": 0,
+   "v30": 2,
+   "v31": 0,
+   "v32": 0,
+   "d23": 0,
+   "d13": 1,
+   "d03": 1,
+   "setsPour": 7,
+   "setsContre": 6,
+   "coeffSets": 1.167,
+   "ptsPour": 285,
+   "ptsContre": 275,
+   "coeffPts": 1.036
+  },
+  {
+   "rang": 7,
+   "equipe": "ANGLET OLYMPIQUE",
+   "points": 5,
+   "joues": 4,
+   "gagnes": 2,
+   "perdus": 2,
+   "forfaits": 0,
+   "v30": 1,
+   "v31": 0,
+   "v32": 1,
+   "d23": 0,
+   "d13": 1,
+   "d03": 1,
+   "setsPour": 7,
+   "setsContre": 8,
+   "coeffSets": 0.875,
+   "ptsPour": 327,
+   "ptsContre": 302,
+   "coeffPts": 1.083
+  },
+  {
+   "rang": 8,
+   "equipe": "J.S.A. BORDEAUX",
+   "points": 1,
+   "joues": 4,
+   "gagnes": 0,
+   "perdus": 4,
+   "forfaits": 0,
+   "v30": 0,
+   "v31": 0,
+   "v32": 0,
+   "d23": 1,
+   "d13": 0,
+   "d03": 3,
+   "setsPour": 2,
+   "setsContre": 12,
+   "coeffSets": 0.167,
+   "ptsPour": 265,
+   "ptsContre": 333,
+   "coeffPts": 0.796
+  },
+  {
+   "rang": 9,
+   "equipe": "SPORT ATHLETIQUE MERIGNACAIS",
+   "points": 0,
+   "joues": 5,
+   "gagnes": 0,
+   "perdus": 5,
+   "forfaits": 0,
+   "v30": 0,
+   "v31": 0,
+   "v32": 0,
+   "d23": 0,
+   "d13": 0,
+   "d03": 5,
+   "setsPour": 0,
+   "setsContre": 15,
+   "coeffSets": 0,
+   "ptsPour": 238,
+   "ptsContre": 375,
+   "coeffPts": 0.635
+  }
+ ],
+ "matchs": [
+  {
+   "code": "RFC002",
+   "journee": 1,
+   "date": "2026-10-03",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "joue",
+   "setsDom": 1,
+   "setsExt": 3,
+   "sets": [
+    [
+     21,
+     25
+    ],
+    [
+     23,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     13,
+     25
+    ]
+   ],
+   "ptsDom": 82,
+   "ptsExt": 96,
+   "infos": "GOUEL PATRICK/AIMASSO ANDREA"
+  },
+  {
+   "code": "RFC003",
+   "journee": 1,
+   "date": "2026-10-03",
+   "heure": "20:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     17
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 50,
+   "infos": "GEORGE THAIS/MOUDACHE LYES"
+  },
+  {
+   "code": "RFC004",
+   "journee": 1,
+   "date": "2026-10-03",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     13
+    ],
+    [
+     25,
+     13
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 38,
+   "infos": "DOMINGUEZ LUCIO MARCIAL/SANZ PATXY"
+  },
+  {
+   "code": "RFC005",
+   "journee": 1,
+   "date": "2026-10-03",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     12
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 47,
+   "infos": "FREDERICO HUMBERTO/CHAMBO HIRIATA"
+  },
+  {
+   "code": "RFC007",
+   "journee": 2,
+   "date": "2026-10-10",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 1,
+   "sets": [
+    [
+     25,
+     22
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     26,
+     24
+    ]
+   ],
+   "ptsDom": 97,
+   "ptsExt": 91,
+   "infos": "BEAUVIN THOMAS/GERMAIN ERIC"
+  },
+  {
+   "code": "RFC008",
+   "journee": 2,
+   "date": "2026-10-10",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "joue",
+   "setsDom": 0,
+   "setsExt": 3,
+   "sets": [
+    [
+     19,
+     25
+    ],
+    [
+     17,
+     25
+    ],
+    [
+     21,
+     25
+    ]
+   ],
+   "ptsDom": 57,
+   "ptsExt": 75,
+   "infos": "MOUSAVI FAR SEYED-ALI/HILMI RABBE LOUKA"
+  },
+  {
+   "code": "RFC009",
+   "journee": 2,
+   "date": "2026-10-10",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "joue",
+   "setsDom": 0,
+   "setsExt": 3,
+   "sets": [
+    [
+     16,
+     25
+    ],
+    [
+     19,
+     25
+    ],
+    [
+     22,
+     25
+    ]
+   ],
+   "ptsDom": 57,
+   "ptsExt": 75,
+   "infos": "MERCHED AKSAM/PINON UGO"
+  },
+  {
+   "code": "RFC010",
+   "journee": 2,
+   "date": "2026-10-11",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     22
+    ],
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     19
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 58,
+   "infos": "VAUVERT ALICE/DELACOUR ALEXIS"
+  },
+  {
+   "code": "RFC012",
+   "journee": 3,
+   "date": "2026-10-24",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     23
+    ],
+    [
+     25,
+     19
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 56,
+   "infos": "DILLER BENOIT/COUPE ANTHONY"
+  },
+  {
+   "code": "RFC013",
+   "journee": 3,
+   "date": "2026-10-24",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     14
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 49,
+   "infos": "CARRIERE JEAN-DOMINIQUE/AIMASSO ANDREA"
+  },
+  {
+   "code": "RFC014",
+   "journee": 3,
+   "date": "2026-10-24",
+   "heure": "20:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 1,
+   "sets": [
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     22
+    ],
+    [
+     16,
+     25
+    ],
+    [
+     25,
+     21
+    ]
+   ],
+   "ptsDom": 91,
+   "ptsExt": 86,
+   "infos": "BEAUDOUIN MATTHIEU/MERCIER LAETITIA"
+  },
+  {
+   "code": "RFC015",
+   "journee": 3,
+   "date": "2026-10-24",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 2,
+   "sets": [
+    [
+     25,
+     15
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     14,
+     25
+    ],
+    [
+     15,
+     6
+    ]
+   ],
+   "ptsDom": 99,
+   "ptsExt": 92,
+   "infos": "DELBARRE NICOLAS/SANZ PATXY"
+  },
+  {
+   "code": "RFC017",
+   "journee": 4,
+   "date": "2026-10-31",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     14
+    ],
+    [
+     25,
+     19
+    ],
+    [
+     25,
+     8
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 41,
+   "infos": "CARRIERE JEAN-DOMINIQUE/CAZENEUVE BENJAMIN"
+  },
+  {
+   "code": "RFC018",
+   "journee": 4,
+   "date": "2026-10-31",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 2,
+   "sets": [
+    [
+     15,
+     25
+    ],
+    [
+     12,
+     25
+    ],
+    [
+     25,
+     11
+    ],
+    [
+     25,
+     11
+    ],
+    [
+     15,
+     11
+    ]
+   ],
+   "ptsDom": 92,
+   "ptsExt": 83,
+   "infos": "GOUEL PATRICK/GERMAIN ERIC"
+  },
+  {
+   "code": "RFC019",
+   "journee": 4,
+   "date": "2026-10-31",
+   "heure": "13:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     16
+    ],
+    [
+     25,
+     11
+    ],
+    [
+     25,
+     17
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 44,
+   "infos": "GRANDAME MAXENCE/LE COEUR NICOLAS"
+  },
+  {
+   "code": "RFC020",
+   "journee": 4,
+   "date": "2026-10-31",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "joue",
+   "setsDom": 2,
+   "setsExt": 3,
+   "sets": [
+    [
+     17,
+     25
+    ],
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     27
+    ],
+    [
+     25,
+     20
+    ],
+    [
+     10,
+     15
+    ]
+   ],
+   "ptsDom": 102,
+   "ptsExt": 108,
+   "infos": "MERCIER LAETITIA/PINON UGO"
+  },
+  {
+   "code": "RFC022",
+   "journee": 5,
+   "date": "2026-11-08",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     17
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     15
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 50,
+   "infos": "GUILLAUMIN YANNIS/BIELMANN KEVIN"
+  },
+  {
+   "code": "RFC023",
+   "journee": 5,
+   "date": "2026-11-07",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "joue",
+   "setsDom": 1,
+   "setsExt": 3,
+   "sets": [
+    [
+     27,
+     25
+    ],
+    [
+     21,
+     25
+    ],
+    [
+     9,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "ptsDom": 77,
+   "ptsExt": 100,
+   "infos": "CARRIERE JEAN-DOMINIQUE/LE COEUR HAZAN CHLOÉ"
+  },
+  {
+   "code": "RFC024",
+   "journee": 5,
+   "date": "2026-11-07",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "joue",
+   "setsDom": 0,
+   "setsExt": 3,
+   "sets": [
+    [
+     10,
+     25
+    ],
+    [
+     6,
+     25
+    ],
+    [
+     20,
+     25
+    ]
+   ],
+   "ptsDom": 36,
+   "ptsExt": 75,
+   "infos": "BLANC NATHALIE/SOUSTRE FABIO"
+  },
+  {
+   "code": "RFC025",
+   "journee": 5,
+   "date": "2026-11-07",
+   "heure": "18:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "joue",
+   "setsDom": 3,
+   "setsExt": 0,
+   "sets": [
+    [
+     25,
+     21
+    ],
+    [
+     25,
+     18
+    ],
+    [
+     25,
+     23
+    ]
+   ],
+   "ptsDom": 75,
+   "ptsExt": 62,
+   "infos": "DUPUY MARION/ALI MOUSSA MOUSSA"
+  },
+  {
+   "code": "RFC027",
+   "journee": 6,
+   "date": "2026-11-21",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC028",
+   "journee": 6,
+   "date": "2026-11-21",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "SALLE LES ANGLAIS"
+  },
+  {
+   "code": "RFC029",
+   "journee": 6,
+   "date": "2026-11-21",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "SALLE ALICE MILLIAT"
+  },
+  {
+   "code": "RFC030",
+   "journee": 6,
+   "date": "2026-11-21",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE MILLIAT"
+  },
+  {
+   "code": "RFC032",
+   "journee": 7,
+   "date": "2026-11-28",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC033",
+   "journee": 7,
+   "date": "2026-11-29",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "STEHELIN"
+  },
+  {
+   "code": "RFC034",
+   "journee": 7,
+   "date": "2026-11-28",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LARRENDART"
+  },
+  {
+   "code": "RFC035",
+   "journee": 7,
+   "date": "2026-11-28",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LALOUBERE"
+  },
+  {
+   "code": "RFC037",
+   "journee": 8,
+   "date": "2026-12-05",
+   "heure": "18:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "BORIS DIAW"
+  },
+  {
+   "code": "RFC038",
+   "journee": 8,
+   "date": "2026-12-05",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC039",
+   "journee": 8,
+   "date": "2026-12-05",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE LEO LAGRANGE"
+  },
+  {
+   "code": "RFC040",
+   "journee": 8,
+   "date": "2026-12-05",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "COMPLEXE AQUALONS"
+  },
+  {
+   "code": "RFC042",
+   "journee": 9,
+   "date": "2026-12-19",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE MILLIAT"
+  },
+  {
+   "code": "RFC043",
+   "journee": 9,
+   "date": "2026-12-19",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC044",
+   "journee": 9,
+   "date": "2026-12-20",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "JULES FERRY"
+  },
+  {
+   "code": "RFC045",
+   "journee": 9,
+   "date": "2026-12-19",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LARRENDART"
+  },
+  {
+   "code": "RFC047",
+   "journee": 10,
+   "date": "2027-01-10",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "JULES FERRY"
+  },
+  {
+   "code": "RFC048",
+   "journee": 10,
+   "date": "2027-01-09",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC049",
+   "journee": 10,
+   "date": "2027-01-09",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE MILLIAT"
+  },
+  {
+   "code": "RFC050",
+   "journee": 10,
+   "date": "2027-03-13",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "COMPLEXE AQUALONS"
+  },
+  {
+   "code": "RFC052",
+   "journee": 11,
+   "date": "2027-01-16",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC053",
+   "journee": 11,
+   "date": "2027-01-16",
+   "heure": "20:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "BORIS DIAW"
+  },
+  {
+   "code": "RFC054",
+   "journee": 11,
+   "date": "2027-01-16",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "PIN FRANC"
+  },
+  {
+   "code": "RFC055",
+   "journee": 11,
+   "date": "2027-01-16",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LARRENDART"
+  },
+  {
+   "code": "RFC057",
+   "journee": 12,
+   "date": "2027-01-30",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC058",
+   "journee": 12,
+   "date": "2027-01-30",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE ILLIAT"
+  },
+  {
+   "code": "RFC059",
+   "journee": 12,
+   "date": "2027-01-30",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "COMPLEXE AQUALONS"
+  },
+  {
+   "code": "RFC060",
+   "journee": 12,
+   "date": "2027-01-30",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE LEO LAGRANGE"
+  },
+  {
+   "code": "RFC062",
+   "journee": 13,
+   "date": "2027-02-13",
+   "heure": "18:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "BORIS DIAW"
+  },
+  {
+   "code": "RFC063",
+   "journee": 13,
+   "date": "2027-02-13",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LALOUBERE"
+  },
+  {
+   "code": "RFC064",
+   "journee": 13,
+   "date": "2027-02-13",
+   "heure": "16:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE ALICE MILLIAT"
+  },
+  {
+   "code": "RFC065",
+   "journee": 13,
+   "date": "2027-02-14",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "JULES FERRY"
+  },
+  {
+   "code": "RFC067",
+   "journee": 14,
+   "date": "2027-02-27",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE MILLIAT"
+  },
+  {
+   "code": "RFC068",
+   "journee": 14,
+   "date": "2027-02-27",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "COMPLEXE AQUALONS"
+  },
+  {
+   "code": "RFC069",
+   "journee": 14,
+   "date": "2027-02-27",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE LEO LAGRANGE"
+  },
+  {
+   "code": "RFC070",
+   "journee": 14,
+   "date": "2027-02-27",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC072",
+   "journee": 15,
+   "date": "2027-03-06",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LALOUBERE"
+  },
+  {
+   "code": "RFC073",
+   "journee": 15,
+   "date": "2027-03-06",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LARRENDART"
+  },
+  {
+   "code": "RFC074",
+   "journee": 15,
+   "date": "2027-03-07",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "JULES FERRY"
+  },
+  {
+   "code": "RFC075",
+   "journee": 15,
+   "date": "2027-03-06",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC077",
+   "journee": 16,
+   "date": "2027-03-20",
+   "heure": "18:00",
+   "domicile": "LONS VOLLEY-CLUB DU MOULIN",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "COMPLEXE AQUALONS"
+  },
+  {
+   "code": "RFC078",
+   "journee": 16,
+   "date": "2027-03-20",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE LEO LAGRANGE"
+  },
+  {
+   "code": "RFC079",
+   "journee": 16,
+   "date": "2027-03-20",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC080",
+   "journee": 16,
+   "date": "2027-03-20",
+   "heure": "20:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "ADOUR VOLLEY",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "BORIS DIAW"
+  },
+  {
+   "code": "RFC082",
+   "journee": 17,
+   "date": "2027-04-03",
+   "heure": "20:00",
+   "domicile": "ONDRES VOLLEY-BALL",
+   "exterieur": "UNION SPORTIVE TALENCAISE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LARRENDART"
+  },
+  {
+   "code": "RFC083",
+   "journee": 17,
+   "date": "2027-04-04",
+   "heure": "14:00",
+   "domicile": "AV GARDE J D'ARC CAUDERAN",
+   "exterieur": "ANGLET OLYMPIQUE",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "JULES FERRY"
+  },
+  {
+   "code": "RFC084",
+   "journee": 17,
+   "date": "2027-04-03",
+   "heure": "17:00",
+   "domicile": "J.S.A. BORDEAUX",
+   "exterieur": "MJC LES FLEURS DE PAU",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "MAITRE JEAN"
+  },
+  {
+   "code": "RFC085",
+   "journee": 17,
+   "date": "2027-04-03",
+   "heure": "18:00",
+   "domicile": "SPORT ATHLETIQUE MERIGNACAIS",
+   "exterieur": "LONS VOLLEY-CLUB DU MOULIN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "ALICE MILLIAT"
+  },
+  {
+   "code": "RFC087",
+   "journee": 18,
+   "date": "2027-04-24",
+   "heure": "18:00",
+   "domicile": "MJC LES FLEURS DE PAU",
+   "exterieur": "SPORT ATHLETIQUE MERIGNACAIS",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "GYMNASE LEO LAGRANGE"
+  },
+  {
+   "code": "RFC088",
+   "journee": 18,
+   "date": "2027-04-24",
+   "heure": "17:00",
+   "domicile": "ANGLET OLYMPIQUE",
+   "exterieur": "J.S.A. BORDEAUX",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "HAÏTZ PEAN"
+  },
+  {
+   "code": "RFC089",
+   "journee": 18,
+   "date": "2027-04-24",
+   "heure": "18:00",
+   "domicile": "UNION SPORTIVE TALENCAISE",
+   "exterieur": "AV GARDE J D'ARC CAUDERAN",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "BORIS DIAW"
+  },
+  {
+   "code": "RFC090",
+   "journee": 18,
+   "date": "2027-04-24",
+   "heure": "18:00",
+   "domicile": "ADOUR VOLLEY",
+   "exterieur": "ONDRES VOLLEY-BALL",
+   "statut": "a_venir",
+   "setsDom": null,
+   "setsExt": null,
+   "sets": [],
+   "ptsDom": null,
+   "ptsExt": null,
+   "infos": "LALOUBERE"
+  }
+ ],
+ "majLe": "2026-11-18T22:09:42.744Z"
+}
