@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Résultats et classement</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: transparent;
+    --text: #1c2430;
+    --muted: #6b7686;
+    --line: #dde3ea;
+    --accent: #0b5cad;
+    --club-bg: #fff3c4;
+    --win: #1a7f46;
+    --lose: #b3261e;
+    --font: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --text: #e8edf3; --muted: #9aa6b5; --line: #2f3946; --accent: #6db3ff; --club-bg: #4a3f12; --win: #5fd08b; --lose: #ff8a80; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; padding: 12px; background: var(--bg); color: var(--text); font: 14px/1.4 var(--font); }
+  h1 { font-size: 16px; margin: 0 0 10px; }
+  h2 { font-size: 14px; margin: 18px 0 6px; color: var(--accent); }
+  .scroll { overflow-x: auto; }
+  table { width: 100%; border-collapse: collapse; }
+  th, td { padding: 6px 8px; text-align: center; border-bottom: 1px solid var(--line); white-space: nowrap; }
+  th { color: var(--muted); font-weight: 600; font-size: 12px; }
+  td.eq, th.eq { text-align: left; white-space: normal; }
+  tr.club td { background: var(--club-bg); font-weight: 600; }
+  td.pts { font-weight: 700; }
+  .match { padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .match .quand { color: var(--muted); font-size: 12px; }
+  .match .rencontre { display: flex; justify-content: space-between; gap: 8px; }
+  .match .score { font-weight: 700; white-space: nowrap; }
+  .match .score.v { color: var(--win); }
+  .match .score.d { color: var(--lose); }
+  .match .sets { color: var(--muted); font-size: 12px; }
+  .maj { margin-top: 14px; color: var(--muted); font-size: 12px; }
+  .erreur { color: var(--lose); }
+</style>
+</head>
+<body>
+<div id="app">Chargement…</div>
+
+<script>
+// Utilisation : index.html?poule=2026-2027_LIAQ_RFC
+// Option : &matchs=tous pour afficher tous les matchs de la poule (par défaut : ceux du club).
+(function () {
+  var params = new URLSearchParams(location.search);
+  var cle = params.get('poule');
+  var tousLesMatchs = params.get('matchs') === 'tous';
+  var app = document.getElementById('app');
+
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function dateFr(m) {
+    if (!m.date) return 'Date à confirmer';
+    var p = m.date.split('-');
+    var d = new Date(Number(p[0]), Number(p[1]) - 1, Number(p[2]));
+    var txt = new Intl.DateTimeFormat('fr-FR', { weekday: 'short', day: 'numeric', month: 'short' }).format(d);
+    return txt + (m.heure ? ' · ' + m.heure : '');
+  }
+
+  function cle2(m) { return (m.date || '9999-99-99') + ' ' + (m.heure || ''); }
+
+  function matchHtml(m, club) {
+    var domClub = m.domicile === club;
+    var extClub = m.exterieur === club;
+    var scoreTxt = 'À venir';
+    var cls = '';
+    var sets = '';
+    if (m.statut === 'joue') {
+      scoreTxt = m.setsDom + ' - ' + m.setsExt;
+      if (domClub || extClub) {
+        var gagne = (domClub && m.setsDom > m.setsExt) || (extClub && m.setsExt > m.setsDom);
+        cls = gagne ? ' v' : ' d';
+      }
+      sets = m.sets.map(function (s) { return s[0] + '/' + s[1]; }).join(', ');
+    } else if (m.infos) {
+      sets = m.infos;
+    }
+    return '<div class="match"><div class="quand">' + esc(dateFr(m)) + ' · J' + esc(m.journee) + '</div>' +
+      '<div class="rencontre"><span>' + esc(m.domicile) + ' – ' + esc(m.exterieur) + '</span>' +
+      '<span class="score' + cls + '">' + esc(scoreTxt) + '</span></div>' +
+      (sets ? '<div class="sets">' + esc(sets) + '</div>' : '') + '</div>';
+  }
+
+  function render(d) {
+    var club = d.club;
+    var h = '<h1>' + esc(d.libelle) + '</h1>';
+
+    h += '<div class="scroll"><table><thead><tr><th>#</th><th class="eq">Équipe</th><th>Pts</th><th>J</th><th>G</th><th>P</th><th>Sets</th></tr></thead><tbody>';
+    d.classement.forEach(function (c) {
+      h += '<tr' + (c.equipe === club ? ' class="club"' : '') + '><td>' + c.rang + '</td><td class="eq">' + esc(c.equipe) +
+        '</td><td class="pts">' + c.points + '</td><td>' + c.joues + '</td><td>' + c.gagnes + '</td><td>' + c.perdus +
+        '</td><td>' + c.setsPour + '-' + c.setsContre + '</td></tr>';
+    });
+    h += '</tbody></table></div>';
+
+    var matchs = d.matchs.filter(function (m) {
+      return tousLesMatchs || m.domicile === club || m.exterieur === club;
+    });
+    var aVenir = matchs.filter(function (m) { return m.statut !== 'joue'; })
+      .sort(function (a, b) { return cle2(a).localeCompare(cle2(b)); });
+    var joues = matchs.filter(function (m) { return m.statut === 'joue'; })
+      .sort(function (a, b) { return cle2(b).localeCompare(cle2(a)); });
+
+    if (aVenir.length) {
+      h += '<h2>Prochains matchs</h2>' + aVenir.slice(0, tousLesMatchs ? 8 : 5).map(function (m) { return matchHtml(m, club); }).join('');
+    }
+    if (joues.length) {
+      h += '<h2>Derniers résultats</h2>' + joues.slice(0, tousLesMatchs ? 12 : 10).map(function (m) { return matchHtml(m, club); }).join('');
+    }
+
+    var maj = new Date(d.majLe);
+    h += '<div class="maj">Données FFVolley · mises à jour le ' +
+      esc(new Intl.DateTimeFormat('fr-FR', { dateStyle: 'long', timeStyle: 'short' }).format(maj)) + '</div>';
+    app.innerHTML = h;
+  }
+
+  if (!cle) { app.innerHTML = '<p class="erreur">Paramètre « poule » manquant dans l’adresse.</p>'; return; }
+  fetch('data/' + encodeURIComponent(cle) + '.json', { cache: 'no-cache' })
+    .then(function (r) { if (!r.ok) throw new Error('HTTP ' + r.status); return r.json(); })
+    .then(render)
+    .catch(function () { app.innerHTML = '<p class="erreur">Résultats momentanément indisponibles.</p>'; });
+})();
+</script>
+</body>
+</html>
