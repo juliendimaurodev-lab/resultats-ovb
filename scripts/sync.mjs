@@ -1,7 +1,7 @@
 // Télécharge les pages FFVolley listées dans poules.json et écrit docs/data/<cle>.json.
 // Si une poule échoue (page changée, incohérence), son ancien fichier est conservé
 // et le script se termine en erreur pour que GitHub te prévienne.
-import { readFile, writeFile, mkdir } from 'node:fs/promises';
+import { readFile, writeFile, mkdir, rm } from 'node:fs/promises';
 import { parsePage } from './parse.mjs';
 
 const BASE_URL = 'https://www.ffvbbeach.org/ffvbapp/resu/vbspo_calendrier.php';
@@ -27,8 +27,11 @@ async function download(url) {
 let echec = false;
 for (const p of poules) {
   const key = keyOf(p);
+  const debugFile = new URL(`debug_${key}.txt`, outDir);
+  let html = null;
   try {
-    const { libelle, classement, matchs } = parsePage(await download(urlOf(p)), p.poule);
+    html = await download(urlOf(p));
+    const { libelle, classement, matchs } = parsePage(html, p.poule);
 
     // Contrôle : chaque match joué compte pour 2 équipes dans la colonne "Jou."
     const joues = matchs.filter((m) => m.statut === 'joue').length;
@@ -43,9 +46,17 @@ for (const p of poules) {
     if (!memeContenu) {
       await writeFile(file, JSON.stringify({ ...data, majLe: new Date().toISOString() }, null, 1));
     }
+    await rm(debugFile, { force: true });
     console.log(`${key} : ${classement.length} équipes, ${matchs.length} matchs, ${joues} joués${memeContenu ? ' (inchangé)' : ' (mis à jour)'}`);
   } catch (e) {
     console.error(`ÉCHEC ${key} : ${e.message}`);
+    if (html) {
+      // Diagnostic : on garde la page reçue pour comprendre ce qui a changé.
+      const nb = (re) => (html.match(re) || []).length;
+      console.error(`  page reçue : ${html.length} caractères, ${nb(/<tr[\s>]/gi)} <tr>, ${nb(/<td[\s>]/gi)} <td>`);
+      console.error(`  début : ${html.slice(0, 300).replace(/\s+/g, ' ')}`);
+      await writeFile(debugFile, html);
+    }
     echec = true;
   }
 }
