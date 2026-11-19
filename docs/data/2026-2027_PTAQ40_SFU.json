@@ -528,7 +528,7 @@
    "code": "SFUA014",
    "journee": 4,
    "date": "2026-11-21",
-   "heure": "18:00",
+   "heure": "17:00",
    "domicile": "US CARCEN-PONSON",
    "exterieur": "US DAX 1",
    "statut": "a_venir",
@@ -602,8 +602,8 @@
   {
    "code": "SFUA019",
    "journee": 5,
-   "date": "2026-12-05",
-   "heure": "20:00",
+   "date": "2026-11-28",
+   "heure": "17:00",
    "domicile": "US DAX 2",
    "exterieur": "US CARCEN-PONSON",
    "statut": "a_venir",
@@ -1170,5 +1170,5 @@
    "infos": "GYMNASE DE BORDA"
   }
  ],
- "majLe": "2026-11-18T22:09:43.053Z"
+ "majLe": "2026-11-19T12:29:27.756Z"
 }
