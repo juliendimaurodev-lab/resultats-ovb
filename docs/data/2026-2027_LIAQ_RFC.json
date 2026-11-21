@@ -950,7 +950,7 @@
    "code": "RFC039",
    "journee": 8,
    "date": "2026-12-05",
-   "heure": "18:00",
+   "heure": "20:30",
    "domicile": "MJC LES FLEURS DE PAU",
    "exterieur": "J.S.A. BORDEAUX",
    "statut": "a_venir",
@@ -1577,5 +1577,5 @@
    "infos": "LALOUBERE"
   }
  ],
- "majLe": "2026-11-18T22:09:42.744Z"
+ "majLe": "2026-11-21T12:06:19.345Z"
 }
